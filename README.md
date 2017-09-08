@@ -11,7 +11,7 @@ Usage
 Compilation
 -----------
 
-   ghc taporwave.hs
+    ghc taporwave.hs
 
 Known issues
 ------------
