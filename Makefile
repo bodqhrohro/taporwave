@@ -1,4 +1,5 @@
 all:
+	cabal install optparse-applicative random
 	ghc -Odph taporwave.hs
 	@if [[ -x /usr/bin/upx ]]; then\
 		upx --best ./taporwave;\

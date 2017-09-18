@@ -8,10 +8,14 @@ Usage
 
     %path_to_binary%/taporwave | mpv --input-file=/dev/stdin --audio-pitch-correction=no %your_audio_files_or_playlist%
 
+You may also pass parameters `--minBound` and `--maxBound` to taporwave if default bounds (0.8 and 1.2 of original speed respectively) do not satisfy you.
+
 Compilation
 -----------
 
-    ghc taporwave.hs
+    make
+
+This would install dependencies if needed, compile the program and compress it with UPX if it is installed.
 
 Known issues
 ------------
